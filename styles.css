@@ -6,6 +6,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Header */
+
 .header-container {
     display: flex;
     background-color: #1F2937;
@@ -71,5 +73,58 @@ button {
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
+
 }
+
+/* Employees */
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 12px 0;
+    margin-bottom: 50px;
+}
+
+.employees-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.employees-text {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 0 400px;
+    justify-content: space-around;
+
+}
+
+.illusub > img {
+    border-radius: 10px;
+    width: 180px;
+}
+
+.illusub > p {
+    margin-top: 0px;
+    width: 180px;
+}
+
+/* Quote */
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container > .quote > p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+
+
+
 
